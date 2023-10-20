@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Stita Maharani</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skill">Skills</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Stita Maharani</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/IMG_6675.png" alt="Stita Maharani profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Stita Maharani</h1>
+        <p class="section__text__p2">Enthusiasm in UI/UX design and Front-End</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/I Gusti Ayu Ngurah Stita Maharani CV.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='https://stitamaharani.notion.site/Portfolio-Enthusiasm-in-UI-UX-design-and-Front-End-b41ce01171254f99b4bd680ca230ed78?pvs=4'">
+            Notion
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/stita-maharani'"
+          />
+          <img
+            src="./assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://https://github.com/StitaMaharani21'"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/Tita.png"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/building-columns-solid.svg"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Bina Nusantara University</h3>
+              <p>Malang, Indonesia <br />Computer Science <br /> GPA 3.85/4.00</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/school-solid.svg"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>SMAK Santo Yoseph</h3>
+              <p>Denpasar, Indonesia<br />Mathematics and Science</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p class="justify-text">
+              Hi, I'm I Gusti Ayu Ngurah Stita Maharani - I am a student at Bina Nusantara University Malang majoring in Computer Science. 
+              I am interested in becoming a UI/UX designer and Front-End Developer. 
+              During this college, I learned about how to build UI/UX design and Front-End website appearance to make it more attractive.
+              I have also produced some interesting lecture projects about UI/UX design and Front-End websites.
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='#skill'"
+      />
+    </section>
+    <section id="skill">
+      <p class="section__text__p1">Discover My</p>
+      <h1 class="title">Skill</h1>
+      <div class="skill-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="skill-sub-title">Technical Skills</h2>
+            <div class="articles-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="skill icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>C</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="skill icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Python</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="skill icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>JAVA</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="skill icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>SQL</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="skill icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="skill icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>CSS</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="skill icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>JavaScript</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="skill icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Laravel</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="skill icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>ReactJs</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="skill icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Golang</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="skill-sub-title">Soft Skills</h2>
+            <div class="articles-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="skill icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Creativity</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="skill icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Collaboration</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="skill icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Problem-Solving</h3>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='#experience'"
+      />
+    </section>
+<!-- experience -->
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Experience </h1>
+      <p class="section__text__p1">(Organization - Volunteer)</p>
+      <div class="section-container">
+        <div class="experience-details-container">
+          <div class="about-containers">
+            <div class="detail-container">
+              <img
+                src="./assets/GDSC.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Google Developer Student Clubs<br />(Core Team Design)</h3>
+              <p>Bina Nusantara University <br /> Malang, Indonesia <br /> Sep 2023 - Present</p>
+              <p><a href="https://gdsc.community.dev/binus-university-malang/" class="colored-underlined-link">GDSC Website ➡</a></p>
+              
+            </div>
+            <div class="detail-container">
+              <img
+                src="./assets/Gambar1.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>PANORAMA Journalism Student Association<br />(Workshop Secretary)</h3>
+              <p>Bina Nusantara University <br /> Malang, Indonesia <br /> Dec 2022 - Jan 2023</p>
+              <p><a href="https://drive.google.com/file/d/1u_wijs3KX8TWdW9d_sFc-9RA_mV5cfJT/view?usp=sharing" class="colored-underlined-link">Certificate ➡</a></p>
+            </div>
+          </div>
+          <div class="about-containers">
+            <div class="detail-container">
+              <img
+                src="./assets/Gambar1.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>PANORAMA Journalism Student Association<br />(Reporter)</h3>
+              <p>Bina Nusantara University <br /> Malang, Indonesia <br /> Feb 2021 - Dec 2022</p>
+              <p><a href="https://www.instagram.com/p/CeAT7NUvkWV/?igshid=MzRlODBiNWFlZA==" class="colored-underlined-link">IG Content ➡</a></p>
+            </div>
+            <div class="detail-container">
+              <img
+                src="./assets/LOGO-HIMTI-150x150.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Computer Science Student Association (HIMTI)<br />(Online Tutoring Volunteer)</h3>
+              <p>Bina Nusantara University <br /> Malang, Indonesia <br /> Sep - Oct 2022</p>
+              <p><a href="https://drive.google.com/drive/folders/1XkfKR3dsncqtnfWNqaEb2JCEAmhI2BL5" class="colored-underlined-link">Teaching Result ➡</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='#projects'"
+      />
+    </section>
+
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/1.png"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h3 class="experience-sub-title project-title">Library Management System Website <br/>(May - Jul 2023)</h3>
+            <p>Web Programming ▪ Front-End Developer</p>
+            <p>Laravel ▪ React ▪ XAMPP</p>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/ImFaldi/managment-library-system'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('./assets/PKM-KC KELOMPOK 9 .pdf')"
+              >
+                Proposal
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/2.png"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h3 class="experience-sub-title project-title">Nerd Project <br/>(Feb - Jun 2023)</h3>
+            <p>Software Engineering ▪ UI Designer</p>
+            <p>AdobeXD</p>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://drive.google.com/file/d/1knYgN33wbSZi8mJhsbOQ15eYWzvXOC_g/view'"
+              >
+                Demo Video
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('./assets/Final Project Report.pdf')"
+              >
+                Project Report
+              </button>
+            </div>
+          </div>
+
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/3.png"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h3 class="experience-sub-title project-title">Big Data Capabilities for Hospital: A Systematic Literature Review<br/>(Feb - Jun 2023)</h3>
+            <p>Research Methodology in CS ▪ Author</p>
+            <p>Received the Best Paper Award</p>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('./assets/Big Data Capabilities for Hospital.pdf')"
+              >
+                PPT Content
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://drive.google.com/file/d/1edamGwuudgGH-vOpIotk2Ex8pfp4bZJv/view'"
+              >
+                Certificate
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/4.png"
+                alt="Project 4"
+                class="project-img"
+              />
+            </div>
+            <h3 class="experience-sub-title project-title">Holiday Plane (HOPE)<br/>(Dec 2022 - Feb 2023)</h3>
+            <p>Database technology ▪ Database Administrator</p>
+            <p>XAMPP ▪ MYSQL ▪ PHPMYADMIN ▪ SQL (CRUD,ALTER, and DROP)</p>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/StitaMaharani21/HOPEDATABASE'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('./assets/paper.pdf')"
+              >
+                Paper
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/5.png"
+                alt="Project 5"
+                class="project-img"
+              />
+            </div>
+            <h3 class="experience-sub-title project-title">Seleas Merchan's<br/>(Dec 2022 - Feb 2023)</h3>
+            <p>Object Oriented Programming ▪ Program Developer</p>
+            <p>JAVA ▪ Apache NeatBeans ▪ Microsoft Access ▪ SQL</p>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/StitaMaharani21/OOP-SeleasMerchan'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://www.youtube.com/watch?v=TKJm8JlJaGM'"
+              >
+                Demo Video
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/6.png"
+                alt="Project 6"
+                class="project-img"
+              />
+            </div>
+            <h3 class="experience-sub-title project-title">Purrrfet (Ongoing)<br/>(Sep 2023 - Present)</h3>
+            <p>Entrepreneurship : Market Validation ▪ UI/UX Designer</p>
+            <p>Figma</p>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://www.figma.com/file/6TRWyRhj8sQf1LinySOHaJ/UI-%2F-UX-Purrfect-(Online-Pet-Care)?type=design&node-id=0%3A1&mode=design&t=03SnR1SsyW0ho6xZ-1'"
+              >
+                Figma
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('./assets/Purrrfect.pdf')"
+              >
+                PPT Content
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='#contact'"
+      />
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:examplemail@gmail.com">stitamaharani@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/stita-maharani">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skill">Skills</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2023 John Doe. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
